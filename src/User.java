@@ -9,7 +9,7 @@ abstract  class User {
     public int getStudents(){
         return Age;
     }
-    public User(String userId,String name,String email,int Age){
+    public User(String userId,String userName,String email,int Age){
         this.userId=userId;
         this.userName=userName;
         this.email=email;

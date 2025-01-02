@@ -4,7 +4,9 @@
         String name;
         String email;
         int Age;
-        public String Name(){
+
+
+     public String Name(){
             return name;
         }
         public String Id(){
@@ -23,10 +25,7 @@
             this.Age = Age;
     }
 
-    public void ShowDetails() {
-        ShowDetails();
-    }
-
+    public abstract void ShowDetails();
     public String toString(){
         {
             return "Person:{"+
